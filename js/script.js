@@ -4,7 +4,7 @@ const Display = document.getElementById('display');
 
 inputsubmit.addEventListener("click", (e)=>{
   e.preventDefault()
-    const list = document.createElement('p');
+    const list = document.createElement('li');
     list.classList.add('list-style')
     list.innerText = inputfield.value;
     Display.appendChild(list);
