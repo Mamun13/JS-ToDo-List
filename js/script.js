@@ -42,7 +42,6 @@ X.addEventListener("click" , (e)=>{
   e.preventDefault();
   let text = "";
   const value = document.getElementById("inputform").value;
-  console.log(value);
   for (let i = 1; i <= 10; i++) {
     let b = value * i
     text += value + " * " + i + " = " + b +"<br>";
@@ -53,9 +52,9 @@ X.addEventListener("click" , (e)=>{
 
 // reset form data 
 
-// Y.addEventListener("click", (e)=>{
-//   e.preventDefault();
-//   document.getElementById("reset").reset();  
-//   document.getElementById("demo").innerText.reset();  
-//   // alert("something went wrong");
-// })
+Y.addEventListener("click", (e)=>{
+  e.preventDefault();
+  document.getElementById("reset").reset();  
+  document.getElementById("demo").innerHTML= ""; 
+  // alert("something went wrong");
+})
