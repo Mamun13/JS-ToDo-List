@@ -1,6 +1,7 @@
 body {
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='250' preserveAspectRatio='none' viewBox='0 0 1440 250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='250' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M37 250L287 0L500 0L250 250z' fill='url(%23SvgjsLinearGradient1001)'%3e%3c/path%3e%3cpath d='M281.6 250L531.6 0L668.1 0L418.1 250z' fill='url(%23SvgjsLinearGradient1001)'%3e%3c/path%3e%3cpath d='M492.20000000000005 250L742.2 0L1094.7 0L844.7 250z' fill='url(%23SvgjsLinearGradient1001)'%3e%3c/path%3e%3cpath d='M740.8000000000001 250L990.8000000000001 0L1097.3000000000002 0L847.3000000000001 250z' fill='url(%23SvgjsLinearGradient1001)'%3e%3c/path%3e%3cpath d='M1398 250L1148 0L807.5 0L1057.5 250z' fill='url(%23SvgjsLinearGradient1002)'%3e%3c/path%3e%3cpath d='M1198.4 250L948.4000000000001 0L763.9000000000001 0L1013.9000000000001 250z' fill='url(%23SvgjsLinearGradient1002)'%3e%3c/path%3e%3cpath d='M947.8 250L697.8 0L363.29999999999995 0L613.3 250z' fill='url(%23SvgjsLinearGradient1002)'%3e%3c/path%3e%3cpath d='M702.1999999999999 250L452.19999999999993 0L404.19999999999993 0L654.1999999999999 250z' fill='url(%23SvgjsLinearGradient1002)'%3e%3c/path%3e%3cpath d='M1307.8453337421424 250L1440 117.84533374214254L1440 250z' fill='url(%23SvgjsLinearGradient1001)'%3e%3c/path%3e%3cpath d='M0 250L132.15466625785746 250L 0 117.84533374214254z' fill='url(%23SvgjsLinearGradient1002)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1001'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1002'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
 	background-size: cover;
+	background-attachment: fixed;
 	height: 100vh;
 }
 .form {
@@ -11,102 +12,22 @@ body {
   text-align: center;
   list-style-position: inside;
 }
-/* .list-style{
-  font-size: 20px;
-  text-transform: capitalize;
-  text-align: center;
-  margin: 0px;
-} */
+
 .add-button{
   margin-left: 50%;
   transform: translate(-50%);
 }
-/* .circle {
-	height: 300px;
+input#count {
 	width: 300px;
-	background-color: rgb(255, 255, 255);
-	align-items: center;
-	border-radius: 50%;
-	overflow-y: hidden;
-	overflow-x: hidden;
 }
-.circle-one {
-	position: absolute;
-	height: 250px;
-	width: 250px;
-	margin-top: 25px;
-	margin-left: 135px;
-	border: 30px solid #ffc003;
-	background-color: transparent;
-	border-radius: 50%;
+.mn{
+	margin-left: 50%;
+	transform: translate(-50%);
 }
-.circle-two {
-	position: absolute;
-	height: 250px;
-	width: 250px;
-	margin-top: 25px;
-	margin-left: -85px;
-	border: 30px solid #ffc003;
-	background-color: transparent;
-	border-radius: 50%;
+.input-form{
+ width: 300px;
+ padding: 7px 18px;
 }
-.circle-three {
-	position: absolute;
-	height: 250px;
-	width: 250px;
-	margin-left: 25px;
-	top: 44%;
-	border: 30px solid #ffc003;
-	background-color: transparent;
-	border-radius: 50%;
+.submit-btn{
+	padding: 7px 10px
 }
-.circle-four {
-	position: absolute;
-	height: 250px;
-	width: 250px;
-	margin-left: 25px;
-	top: -28%;
-	border: 30px solid #ffc003;
-	background-color: transparent;
-	border-radius: 50%;
-} */
-/* .circle-one{
-  position: absolute;
-  left: 45%;
-  height: 300px;
-  width: 300px;
-  border: 30px solid #ffc003;
-  border-radius: 50%;
-  background-color: transparent;
-
-}
-.circle-two{
-  position: absolute;
-  left: -45%;
-  height: 300px;
-  width: 300px;
-  border: 30px solid #ffc003;
-  border-radius: 50%;
-  background-color: transparent;
-
-}
-.circle-three{
-  position: absolute;
-  top: 45%;
-  height: 300px;
-  width: 300px;
-  border: 30px solid #ffc003;
-  border-radius: 50%;
-  background-color: transparent;
-
-}
-.circle-four{
-  position: absolute;
-  bottom: 45%;
-  height: 300px;
-  width: 300px;
-  border: 30px solid #ffc003;
-  border-radius: 50%;
-  background-color: transparent;
-
-} */
